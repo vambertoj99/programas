@@ -21,7 +21,7 @@ while True:
             print("Digite um valor válido.")
         else:
             saldo += valor
-            extrato.append(f"saque: R$ {valor:.2f}")
+            extrato.append(f"Depósito: R$ {valor:.2f}")
                             
     elif opcao == "s":
         valor = float(input("Informe o valor do saque: "))
@@ -40,7 +40,7 @@ while True:
         
         else:
             saldo -= valor
-            extrato.append(f"saque: R$ {valor:.2f}")
+            extrato.append(f"Saque: R$ {valor:.2f}")
             limite_saque -= 1
         
     elif opcao == "e":
