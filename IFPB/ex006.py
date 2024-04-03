@@ -1,0 +1,5 @@
+print(f"verificar a comututividade")
+print(f"True and False = {True and False}")
+print(f"False and True = {False and True}")
+print(f"True or False = {True or False}")
+print(f"False or True = {False or True}")
